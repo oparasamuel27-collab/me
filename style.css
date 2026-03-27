@@ -63,8 +63,8 @@ header {
 
 .container {
 max-width: 1200px;
-margin: 0 auto;
 padding: 0 20px;
+margin: 80px;
 }
 
 section {
@@ -80,9 +80,14 @@ color: #333;
 
 /* About Section */
 #about {
-  margin: 50px;
 background: #f9f9f9;
 border-radius: 20px;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#about:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .about-content {
@@ -111,7 +116,7 @@ border-radius: 20px;
 /* Skills Section */
 #skills {
 background: white;
-margin: 30px ;
+/*margin: 30px ; */
 text-align: center;
 }
 
