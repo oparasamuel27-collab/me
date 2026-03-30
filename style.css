@@ -11,7 +11,8 @@ body {
 }
 
 header {
-  background-image: ;
+  background-image: url(img/background.jpg);
+ 
   text-align: center;
   font-family: cursive;
   color: blanchedalmond;
