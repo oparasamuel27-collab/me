@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #6b5b95;
+  background-image: ;
   text-align: center;
   font-family: cursive;
   color: blanchedalmond;
@@ -100,7 +100,7 @@ align-items: center;
 .about-text h3 {
 font-size: 24px;
 margin-bottom: 20px;
-color: #667eea;
+color: #667eee;
 }
 
 .about-text p {
