@@ -270,25 +270,72 @@ footer {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    margin: 40px;
+  }
+  section {
+    padding: 60px 20px;
+  }
+  .nav {
+    padding: 15px 20px;
+  }
+  .nav-menu {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
-header h1 {
-  font-size: 32px;
+  header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  section {
+    padding: 40px 20px;
+  }
+  section h2 {
+    font-size: 28px;
+  }
+  .container {
+    margin: 20px;
+  }
 }
 
-.about-content {
-  grid-template-columns: 1fr;
-}
-
-nav ul {
-  flex-direction: column;
-  gap: 10px;
-}
-
-section {
-  padding: 40px 20px;
-}
-
-section h2 {
-f ont-size: 28px;
-}
+@media (max-width: 480px) {
+  .nav {
+    padding: 10px 10px;
+  }
+  .nav-brand-name {
+    font-size: 16px;
+  }
+  .nav-menu {
+    gap: 15px;
+  }
+  section h2 {
+    font-size: 24px;
+  }
+  .skill-card {
+    padding: 20px;
+  }
+  .project-card {
+    padding: 20px;
+  }
+  .social-links {
+    gap: 15px;
+  }
+  .social-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
 }
